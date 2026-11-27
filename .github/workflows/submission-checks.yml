@@ -15,5 +15,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -e '.[dev]'
-      - run: PYTHONPATH=src:. python -m pytest tests/deployment/test_public_original_app.py -q
+      - run: PYTHONPATH=src:. python -m pytest tests/deployment/test_public_original_app.py tests/deployment/test_demo_session_recovery.py -q
+      - run: python tools/verify/evaluate_snapshot_plates.py | cmp - evidence/synthetic-plate-evaluation.json
       - run: python tools/verify/secret_scan.py

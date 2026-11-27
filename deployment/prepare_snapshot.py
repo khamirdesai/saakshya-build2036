@@ -70,6 +70,8 @@ def main():
                     previews += 1
                     break
     info = json.loads((out / "provenance.json").read_text()) if (out / "provenance.json").exists() else {}
+    # A fresh package supersedes any note about a previous manifest discrepancy.
+    info.pop("hash_correction_note", None)
     info.update({"snapshot_sha256": hashlib.sha256(dest.read_bytes()).hexdigest(), "preview_frames": previews,
                  "previews_are_sealed_evidence": False})
     (out / "provenance.json").write_text(json.dumps(info, indent=2) + "\n")

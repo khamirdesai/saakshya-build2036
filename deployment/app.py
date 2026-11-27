@@ -80,6 +80,37 @@ def prepare_ui(destination: Path) -> None:
     (destination / "index.html").write_text(page)
     shutil.copy2(ROOT / "deployment" / "demo-access.js", destination / "demo-access.js")
 
+    # A two-hour demo token can expire while the browser tab remains open, or
+    # become invalid after the server is restarted. The original UI otherwise
+    # keeps the old officer name visible and asks the visitor to paste a token.
+    # Apply this only to the public synthetic wrapper: keep the original gate
+    # and authentication, but return the visitor to its demo-access control.
+    application = destination / "app.js"
+    source = application.read_text()
+    fetch_line = "  const res = await fetch(path, { ...opts, headers });"
+    if source.count(fetch_line) != 1:
+        raise RuntimeError("Original app API client changed; demo recovery cannot be applied safely")
+    recovery = """
+  // BEGIN public demo session recovery
+  if (res.status === 401 && state.principal && state.token) {
+    state.token = "";
+    state.principal = null;
+    sessionStorage.removeItem("saakshya.token");
+    const gate = document.querySelector("#gate");
+    if (gate) gate.hidden = false;
+    const who = document.querySelector("#who");
+    if (who) who.textContent = "not signed in";
+    const officer = document.querySelector("#officer-name");
+    if (officer) officer.textContent = "Sign in";
+    const tokenButton = document.querySelector("#btn-token");
+    if (tokenButton) tokenButton.textContent = "Sign in";
+    const message = document.querySelector("#public-demo-status");
+    if (message) message.textContent = "Your demo session ended. Select Use demo access, then Enter the workspace to continue.";
+  }
+  // END public demo session recovery
+"""
+    application.write_text(source.replace(fetch_line, fetch_line + recovery, 1))
+
 
 def build():
     # Public demo configuration never reads the submitter's .env or credentials.

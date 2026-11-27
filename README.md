@@ -5,8 +5,9 @@
 - **30 simultaneous RTSP streams** ingested through the pipeline in a staged four-minute Sentinel sandbox test on 2 September 2026; the sandbox streamed prerecorded scenes.
 - **4,465 observations and 200 plate reads** in the 28 September Sentinel network-stream session, using four selected deep-inference slots. The sandbox footage was prerecorded.
 - **1.155 million detector observations** in the 24 September government snapshot. The delivered government report contains **1,101 plate-read rows across nine cameras**.
-- **17 of 21 hand-read plates matched exactly** in a small recogniser check; this is not a production-accuracy estimate. See the [recogniser test](#-number-plate-reads) below.
+- **17 of 21 hand-read plates matched exactly** in a small recogniser check; this is not a production-accuracy estimate. See the [original team comparison, including its failed reads](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/var/reports/ocr_indian_eval.json).
 - **6 of 6 metadata alterations detected** in a reproducible synthetic-snapshot check, after the clean chain verified. This covers one modified field across six metadata-only records, not image integrity or a security assessment. [Read the method and repeat the check](evidence/WORKFLOW_CHECK.md).
+- **Synthetic plate coverage:** 86 of 231 labeled camera/plate pairs matched within their truth time windows at one frame per second. This retrospective, development-set result exposes missed reads and is not field accuracy. [See the evaluation and per-camera results](evidence/SYNTHETIC_PLATE_EVALUATION.md).
 
 [Watch the one-minute SAAKSHYA film](https://khamirdesai.github.io/saakshya-build2036/videos/#film) · [Read the Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) · [Open the original app](https://reverb-colossal-reaction.ngrok-free.dev/)
 
@@ -23,7 +24,7 @@ The public interactive instance preserves the original Python API and UI on a pr
 
 The interactive sandbox uses synthetic data. The Sentinel film records an earlier network-stream session in which the sandbox supplied prerecorded scenes as simulated-live streams; it demonstrates actual streaming integration and processing, not a claim of real-time camera capture. The app runs on the participant PC and may be temporarily unavailable if it is offline. The [15-slide submission deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) contains the architecture, measured results and proposed Indore pilot.
 
-[Source and contribution history](PROVENANCE.md) · [Original app deployment](deployment/README.md)
+[Source and contribution history](PROVENANCE.md) · [Original app deployment](deployment/README.md) · [Proposed pilot evaluation](evidence/PILOT_VALIDATION_PLAN.md)
 
 ---
 

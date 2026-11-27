@@ -10,7 +10,8 @@
   "evidence_records": 6,
   "plate_read_count_is_not_accuracy": true,
   "government_feed_used": false,
-  "snapshot_sha256": "54de95e7b921d0a5048ea5658e6f97efc23822ec6043f4dab2e20f9464121b24",
+  "snapshot_sha256": "b9de7dd23ec7b208877795f37aa492d23c18fec3f06929127c8df5ca63882584",
   "preview_frames": 6,
-  "previews_are_sealed_evidence": false
+  "previews_are_sealed_evidence": false,
+  "hash_correction_note": "Recomputed for the distributed snapshot on 28 Nov 2026; the earlier manifest recorded a different SHA-256. The reason for that earlier discrepancy has not been established."
 }
