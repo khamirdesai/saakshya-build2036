@@ -35,6 +35,12 @@ The existing public primary video was downloaded and inspected locally.
 Duration: 163.05 seconds. H.264 1920x1080, 30 fps; AAC stereo audio.
 No new film was created. The historical government film is separate.
 
-SCOPE
-No product source changes were made or published. No portal submission was made.
-The historical OCR and live-grid figures are traced to the repository's dated reports, not newly rerun here.
+SCOPE OF THE 26 NOVEMBER CHECKS
+No original product source fix was needed for the checks above. The historical OCR and live-grid figures were traced to dated upstream reports and were not rerun on the government grid.
+
+27 NOVEMBER PUBLICATION
+Public source: https://github.com/khamirdesai/saakshya-build2036
+Public original app: https://reverb-colossal-reaction.ngrok-free.dev/
+Original videos: https://khamirdesai.github.io/saakshya-build2036/videos/
+The source Python and operator UI are preserved. New deployment packaging runs the original UI and API on a corpus generated and processed by the original tools. Its 261 observations include 206 plate-bearing observations; these counts are not recognition accuracy. Six additional deployment tests passed, and the public API's search, authentication and evidence-chain behavior were verified. No continuous model worker or government feed runs in the public sandbox. The participant PC must stay online.
+No hackathon portal submission has been made.
