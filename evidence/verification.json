@@ -1,0 +1,41 @@
+{
+  "source_commit": "9b65247f0f23093ee7147f9c4f80a053a280a07f",
+  "date": "2026-11-26",
+  "focused_tests": {
+    "total": 220,
+    "passed": 219,
+    "skipped": 1,
+    "failed_or_error": 0,
+    "scope": "11 selected test modules; controlled fixtures, not CV field accuracy",
+    "report": "focused-tests.xml"
+  },
+  "registry_benchmark": {
+    "n": 80000,
+    "onboard_s": 0.682,
+    "rate": 117373,
+    "gaps_ms": 81.7,
+    "gaps_counted": 80000,
+    "capability_ms": 156.0,
+    "viewport_ms": 214.2,
+    "viewport_features": 1665,
+    "lookup_ms": 0.43,
+    "filter_ms": 355.4,
+    "filter_rows": 80000,
+    "db_mb": 58.05,
+    "run_date": "2026-11-26",
+    "scope": "synthetic camera metadata only; no streams or model inference"
+  },
+  "primary_video": {
+    "public_url": "https://raw.githubusercontent.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/main/submission/films/03_own_feed_1080p.mp4",
+    "duration_seconds": 163.05,
+    "width": 1920,
+    "height": 1080,
+    "audio": "AAC stereo",
+    "historical_recording": true
+  },
+  "historical_results_reproduced_on_live_grid": false,
+  "new_model_accuracy_evaluation_performed": false,
+  "repository_code_modified": false,
+  "portal_submitted": false,
+  "team_reuse_authorization": "User confirmed teammate involvement and agreement in chat."
+}

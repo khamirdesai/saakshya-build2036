@@ -1,0 +1,142 @@
+{
+  "cameras": [
+    {
+      "id": "C-014",
+      "name": "Naroda Circle Junction",
+      "department": "Home (Traffic)",
+      "district": "Ahmedabad",
+      "location": {
+        "lat": 23.0742,
+        "lon": 72.6325
+      },
+      "codec": "h264",
+      "live": true,
+      "properties": {
+        "width": 1280,
+        "height": 720,
+        "declared_fps": 15
+      },
+      "quality_note": "Daylight traffic chokepoint \u2014 ANPR viable",
+      "urls": {
+        "rtsp": "rtsp://127.0.0.1:8554/stream/C-014",
+        "whep": "http://127.0.0.1:8889/stream/C-014/whep",
+        "hls": "http://127.0.0.1:8888/stream/C-014/index.m3u8"
+      }
+    },
+    {
+      "id": "C-021",
+      "name": "GSRTC Depot Gate 2",
+      "department": "GSRTC",
+      "district": "Ahmedabad",
+      "location": {
+        "lat": 23.0301,
+        "lon": 72.581
+      },
+      "codec": "h265",
+      "live": true,
+      "properties": {
+        "width": 1280,
+        "height": 720,
+        "declared_fps": 12
+      },
+      "quality_note": "Bus depot gate \u2014 moderate angle, some motion blur",
+      "urls": {
+        "rtsp": "rtsp://127.0.0.1:8554/stream/C-021",
+        "whep": "http://127.0.0.1:8889/stream/C-021/whep",
+        "hls": "http://127.0.0.1:8888/stream/C-021/index.m3u8"
+      }
+    },
+    {
+      "id": "C-033",
+      "name": "Dehgam Panchayat Office",
+      "department": "Panchayat",
+      "district": "Gandhinagar",
+      "location": {
+        "lat": 23.1701,
+        "lon": 72.821
+      },
+      "codec": "h264",
+      "live": true,
+      "properties": {
+        "width": 640,
+        "height": 480,
+        "declared_fps": 10
+      },
+      "quality_note": "Low-light, low-res, soft focus \u2014 ANPR not viable, vehicle still usable",
+      "urls": {
+        "rtsp": "rtsp://127.0.0.1:8554/stream/C-033",
+        "whep": "http://127.0.0.1:8889/stream/C-033/whep",
+        "hls": "http://127.0.0.1:8888/stream/C-033/index.m3u8"
+      }
+    },
+    {
+      "id": "C-047",
+      "name": "Gandhinagar Sector 21 Chowk",
+      "department": "Municipal",
+      "district": "Gandhinagar",
+      "location": {
+        "lat": 23.2156,
+        "lon": 72.6369
+      },
+      "codec": "h265",
+      "live": true,
+      "properties": {
+        "width": 1920,
+        "height": 1080,
+        "declared_fps": 15
+      },
+      "quality_note": "High-resolution municipal junction \u2014 ANPR viable",
+      "urls": {
+        "rtsp": "rtsp://127.0.0.1:8554/stream/C-047",
+        "whep": "http://127.0.0.1:8889/stream/C-047/whep",
+        "hls": "http://127.0.0.1:8888/stream/C-047/index.m3u8"
+      }
+    },
+    {
+      "id": "C-052",
+      "name": "Civil Hospital Gate",
+      "department": "Health",
+      "district": "Ahmedabad",
+      "location": {
+        "lat": 23.053,
+        "lon": 72.605
+      },
+      "codec": "h264",
+      "live": true,
+      "properties": {
+        "width": 960,
+        "height": 540,
+        "declared_fps": 8
+      },
+      "quality_note": "Hospital gate \u2014 glare from canopy lighting",
+      "urls": {
+        "rtsp": "rtsp://127.0.0.1:8554/stream/C-052",
+        "whep": "http://127.0.0.1:8889/stream/C-052/whep",
+        "hls": "http://127.0.0.1:8888/stream/C-052/index.m3u8"
+      }
+    },
+    {
+      "id": "C-061",
+      "name": "Vastral Police Chowky",
+      "department": "Home (Police)",
+      "district": "Ahmedabad",
+      "location": {
+        "lat": 23.01,
+        "lon": 72.66
+      },
+      "codec": "h264",
+      "live": true,
+      "properties": {
+        "width": 1280,
+        "height": 720,
+        "declared_fps": 15
+      },
+      "quality_note": "Police post camera",
+      "urls": {
+        "rtsp": "rtsp://127.0.0.1:8554/stream/C-061",
+        "whep": "http://127.0.0.1:8889/stream/C-061/whep",
+        "hls": "http://127.0.0.1:8888/stream/C-061/index.m3u8"
+      }
+    }
+  ]
+}

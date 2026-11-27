@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+var/
+.env
+.env.*
+*.db
+*.db-wal
+*.db-shm
+*.onnx
+*.safetensors
+node_modules/
+.DS_Store
+
+
+# Locally downloaded Linux dependencies; not source or public demo assets.
+.docker-deps/

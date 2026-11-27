@@ -1,0 +1,40 @@
+SAAKSHYA - BUILD 2036 FRESH VERIFICATION
+Run date: 26 November 2026
+Source commit: 9b65247f0f23093ee7147f9c4f80a053a280a07f
+Public repository:
+https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone
+
+CHECKOUT
+git clone https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone.git
+cd DAU-Daiict-submission-Sentinel-gujarat-Hackathone
+git checkout 9b65247f0f23093ee7147f9c4f80a053a280a07f
+
+FRESH ENVIRONMENT USED FOR THIS REVIEW
+uv venv --python 3.12
+uv pip install -e '.[dev]'
+uv pip install fast-alpr onnxruntime
+
+FOCUSED CONTROLLED CHECKS
+AI_PROVIDER=disabled SAAKSHYA_MODELS_OFFLINE=1 SAAKSHYA_GOOGLE_MAPS_DISABLE=1 .venv/bin/python -m pytest tests/unit/test_capability.py tests/unit/test_registry_gaps.py tests/unit/test_evidence_read_frame.py tests/unit/test_evidence.py tests/unit/test_evidence_chain_records.py tests/unit/test_route_feasibility.py tests/unit/test_registry_onboarding.py tests/security/test_api_authorisation.py tests/security/test_plate_exposure.py tests/security/test_alert_queue_api.py tests/e2e/test_no_network.py -q
+
+Observed: 219 passed, 1 skipped, 0 failed.
+The skip is the offline model-cache loader check; optional torch was absent.
+No government credentials, live grid access or paid model API was used.
+These are software checks on controlled inputs, not field recognition accuracy.
+The two evidence-frame tests needed the optional OCR runtime; after installing it, the complete selected set was rerun successfully.
+
+SYNTHETIC METADATA BENCHMARK
+.venv/bin/python tools/reports/scale_load_test.py --n 80000 --out var/reports/build2036-metadata.md
+
+The package JSON holds this task's result. Wall-clock timings vary by host.
+The harness creates a temporary synthetic SQLite registry and removes that temporary registry after measurement.
+It opens no video streams and performs no computer-vision inference.
+
+VIDEO
+The existing public primary video was downloaded and inspected locally.
+Duration: 163.05 seconds. H.264 1920x1080, 30 fps; AAC stereo audio.
+No new film was created. The historical government film is separate.
+
+SCOPE
+No product source changes were made or published. No portal submission was made.
+The historical OCR and live-grid figures are traced to the repository's dated reports, not newly rerun here.

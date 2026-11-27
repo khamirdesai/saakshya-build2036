@@ -1,0 +1,19 @@
+name: Original app deployment checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  original-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -e '.[dev]'
+      - run: PYTHONPATH=src:. python -m pytest tests/deployment/test_public_original_app.py -q
+      - run: python tools/verify/secret_scan.py

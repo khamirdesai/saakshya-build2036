@@ -1,0 +1,16 @@
+{
+  "created": "2026-11-27",
+  "upstream_commit": "9b65247f0f23093ee7147f9c4f80a053a280a07f",
+  "method": "Original tools/sandbox/make_media.py then original tools/demo/seed.py --fps 1",
+  "corpus": "SYNTHETIC_CONTROL",
+  "cameras": 8,
+  "synthetic_video_cameras": 6,
+  "observations": 261,
+  "observations_with_plate": 206,
+  "evidence_records": 6,
+  "plate_read_count_is_not_accuracy": true,
+  "government_feed_used": false,
+  "snapshot_sha256": "54de95e7b921d0a5048ea5658e6f97efc23822ec6043f4dab2e20f9464121b24",
+  "preview_frames": 6,
+  "previews_are_sealed_evidence": false
+}
