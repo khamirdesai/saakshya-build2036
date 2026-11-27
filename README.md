@@ -6,7 +6,7 @@
 - **4,465 observations and 200 plate reads** in the 28 September live session, using four selected deep-inference slots.
 - **1.155 million detector observations** in the 24 September government snapshot. The delivered government report contains **1,101 plate-read rows across nine cameras**.
 
-[Watch the 5:40 Sentinel live-stream demonstration](https://khamirdesai.github.io/saakshya-build2036/videos/#government) · [Read the Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) · [Open the original app](https://reverb-colossal-reaction.ngrok-free.dev/)
+[Watch the one-minute SAAKSHYA film](https://khamirdesai.github.io/saakshya-build2036/videos/#film) · [Read the Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) · [Open the original app](https://reverb-colossal-reaction.ngrok-free.dev/)
 
 The films show the original interface, live wall and camera focus, detection/OCR, alerts, search, GIS, case files, evidence, audit and copilot. Results refer to their dated test windows. Detector/read totals are output counts, and viewing concurrency is distinct from selected deep inference.
 

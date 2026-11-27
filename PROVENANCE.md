@@ -26,6 +26,8 @@ The 27 November visual deck revision retains the event’s 15-slide template and
 
 The additional 38-second Sentinel highlights reel uses four excerpted sections of the original narrated government film (0–9, 80–89, 186–195 and 268–275 seconds), followed by a new dated end card. The full 5:40 film remains available unchanged and is the default recording.
 
+The 60-second narrated film combines original Mumbai traffic analysis replay and a focused shot from the historical Sentinel session with new motion graphics and generated Gradium narration. Source footage is labelled by origin and date. The output counts relate to the 28 September session, using four selected inference slots. Original footage audio is muted in this edit. The 5:40 Sentinel film remains available unchanged.
+
 ## Original films, reproduced without edits
 
 | Public file | Original upstream path | Scope |
