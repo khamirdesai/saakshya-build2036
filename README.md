@@ -2,15 +2,16 @@
 
 **SAAKSHYA is a working CCTV intelligence and incident-investigation platform tested on the Sentinel Camera Grid.** This entry brings that engineering to **Frontier 06: The Rise of New India**, with a proposed Indore pilot.
 
-- **30 simultaneous RTSP streams** ingested through the pipeline in a staged four-minute test on 2 September 2026.
-- **4,465 observations and 200 plate reads** in the 28 September live session, using four selected deep-inference slots.
+- **30 simultaneous RTSP streams** ingested through the pipeline in a staged four-minute Sentinel sandbox test on 2 September 2026; the sandbox streamed prerecorded scenes.
+- **4,465 observations and 200 plate reads** in the 28 September Sentinel network-stream session, using four selected deep-inference slots. The sandbox footage was prerecorded.
 - **1.155 million detector observations** in the 24 September government snapshot. The delivered government report contains **1,101 plate-read rows across nine cameras**.
+- **17 of 21 hand-read plates matched exactly** in a small recogniser check; this is not a production-accuracy estimate. See the [recogniser test](#-number-plate-reads) below.
 
 [Watch the one-minute SAAKSHYA film](https://khamirdesai.github.io/saakshya-build2036/videos/#film) · [Read the Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) · [Open the original app](https://reverb-colossal-reaction.ngrok-free.dev/)
 
 The films show the original interface, live wall and camera focus, detection/OCR, alerts, search, GIS, case files, evidence, audit and copilot. Results refer to their dated test windows. Detector/read totals are output counts, and viewing concurrency is distinct from selected deep inference.
 
-The public interactive instance preserves the original Python API and UI on a processed synthetic corpus for judge testing. Use **demo access**, then **Enter the workspace**. Sentinel live operation is documented in the film and the [original integration record](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_INTEGRATION_STORY.md).
+The public interactive instance preserves the original Python API and UI on a processed synthetic corpus for judge testing. Use **demo access**, then **Enter the workspace**. The Sentinel network-stream session is documented in the film and the [original integration record](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_INTEGRATION_STORY.md).
 
 ## Judge walkthrough
 
@@ -19,11 +20,15 @@ The public interactive instance preserves the original Python API and UI on a pr
 3. Open **Investigate**, search the synthetic plate **GJ18JX7786** and review its seven observations across two cameras. The interface displays camera timebase restrictions alongside the results.
 4. Explore the camera registry, capability grades and evidence chain. For the full feature tour and original traffic-footage analysis, use the other tabs on the video page.
 
-The interactive sandbox uses synthetic data, while the Sentinel film records the earlier network-stream session. The app runs on the participant PC and may be temporarily unavailable if it is offline. The [15-slide submission deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) contains the architecture, measured results and proposed Indore pilot.
+The interactive sandbox uses synthetic data. The Sentinel film records an earlier network-stream session in which the sandbox supplied prerecorded scenes as simulated-live streams; it demonstrates actual streaming integration and processing, not a claim of real-time camera capture. The app runs on the participant PC and may be temporarily unavailable if it is offline. The [15-slide submission deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) contains the architecture, measured results and proposed Indore pilot.
 
 [Source and contribution history](PROVENANCE.md) · [Original app deployment](deployment/README.md)
 
 ---
+
+## Original Gujarat challenge project documentation
+
+The following preserved project documentation describes a prior submission. Its Sentinel sandbox delivered prerecorded scenes over network streams; references to live operation below describe the network session, not proof of contemporaneous camera capture. The current Build 2036 materials are linked above.
 
 <div align="center">
 
@@ -34,7 +39,7 @@ The interactive sandbox uses synthetic data, while the Sentinel film records the
 **Gujarat Police Innovation Challenge 2026 · Sentinel Camera Grid · DAU (DA-IICT)**
 
 [![GPIC 2026](https://img.shields.io/badge/Gujarat_Police-Innovation_Challenge_2026-1B4F72?style=for-the-badge)](https://sentinel.gujarat.gov.in/)
-[![Release](https://img.shields.io/badge/Release-v1.0_final_submission-C0392B?style=for-the-badge)](../../releases)
+[![Original submission](https://img.shields.io/badge/Original-submission-C0392B?style=for-the-badge)](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone)
 [![Tests](https://img.shields.io/badge/Tests-1582_passed-2E7D32?style=for-the-badge)](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/reports/FINAL_SUBMISSION_CERTIFICATION.md)
 
 [![Hybrid 1+2+3+4](https://img.shields.io/badge/Architecture-Hybrid_Models_1%2B2%2B3%2B4-0E7C7B?style=flat-square)](docs/HLD.md)
@@ -52,19 +57,16 @@ The interactive sandbox uses synthetic data, while the Sentinel film records the
 </div>
 
 SAAKSHYA onboards any camera the state already owns (**Model 1**), reads the
-live government grid (**Model 2**), federates departmental VMS systems
+Sentinel sandbox streams (**Model 2**), federates departmental VMS systems
 (**Model 3**) and runs deep central analytics on the cameras that measurably
 deserve it (**Model 4**). **All four models are built**; Model 4 ran live on the
-government grid on 28 Sep. Every vehicle sighting
+Sentinel network streams on 28 Sep; the sandbox supplied prerecorded scenes. Every vehicle sighting
 becomes a timestamped, geolocated, hash-chained observation. Every search
 needs a case and a stated purpose and lands in a tamper-evident audit log.
 Every number here is labelled **MEASURED**, **MODELLED**, **DEMO** or
 **DESIGNED**.
 
-> **Judges — start here:** the [**v1.0 release**](../../releases) and the
-> [`submission/`](submission/) folder hold everything we submitted.
-> [`docs/FINAL_SUBMISSION.md`](docs/FINAL_SUBMISSION.md) says what each file
-> proves, and what it does not.
+> **Original project records:** the [original submission files](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/tree/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission) document the earlier challenge. For Build 2036, use the materials and judge walkthrough above.
 
 ---
 
@@ -72,13 +74,13 @@ Every number here is labelled **MEASURED**, **MODELLED**, **DEMO** or
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="submission/films/03_own_feed_1080p.mp4"><img src="docs/readme/films/thumb-own-feed.jpg" alt="Own-feed film"></a><br><b>Own feed · 2:43</b><br><sub>Sign-in → onboarding → handoff → per-frame detection and voted plates → search → watchlist alert, route, trace report → evidence</sub></td>
-<td width="33%" valign="top"><a href="submission/films/04_government_feed_1080p.mp4"><img src="docs/readme/films/thumb-government-live.jpg" alt="Government live film"></a><br><b>Government grid, live · 5:40</b><br><sub>Recorded live on Sentinel, 28 Sep 2026 12:41–12:47 IST, with the live count on screen · <a href="submission/04_government_feed_anpr_report.csv">plate CSV</a></sub></td>
-<td width="33%" valign="top"><a href="submission/films/04b_government_tour_1080p.mp4"><img src="docs/readme/films/thumb-government-tour.jpg" alt="Full-feature tour"></a><br><b>Every feature, from sign-in · 15:04</b><br><sub>All screens, 49 beats, 0 failures, on government footage recorded 15 Sep: labelled RECORDED, never called live</sub></td>
+<td width="33%" valign="top"><a href="https://khamirdesai.github.io/saakshya-build2036/videos/#primary"><img src="docs/readme/films/thumb-own-feed.jpg" alt="Own-feed film"></a><br><b>Own feed · 2:43</b><br><sub>Sign-in → onboarding → handoff → per-frame detection and voted plates → search → watchlist alert, route, trace report → evidence</sub></td>
+<td width="33%" valign="top"><a href="https://khamirdesai.github.io/saakshya-build2036/videos/#government"><img src="docs/readme/films/thumb-government-live.jpg" alt="Government live film"></a><br><b>Sentinel network-stream session · 5:40</b><br><sub>Recorded during a Sentinel network-stream session on 28 Sep 2026 12:41–12:47 IST; sandbox scenes were prerecorded · <a href="https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/04_government_feed_anpr_report.csv">plate CSV</a></sub></td>
+<td width="33%" valign="top"><a href="https://khamirdesai.github.io/saakshya-build2036/videos/#tour"><img src="docs/readme/films/thumb-government-tour.jpg" alt="Full-feature tour"></a><br><b>Every feature, from sign-in · 15:04</b><br><sub>All screens, 49 beats, 0 failures, on government footage recorded 15 Sep: labelled RECORDED, never called live</sub></td>
 </tr>
 </table>
 
-<sub>1080p copies in <a href="submission/films/">submission/films/</a>; the 2560×1440 masters are in the submission pack.</sub>
+<sub>Watch the recordings on the <a href="https://khamirdesai.github.io/saakshya-build2036/videos/">demo page</a>.</sub>
 
 ---
 
