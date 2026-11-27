@@ -22,14 +22,14 @@ The hosted demonstration uses the original FastAPI routes and operator UI on a f
 
 [![GPIC 2026](https://img.shields.io/badge/Gujarat_Police-Innovation_Challenge_2026-1B4F72?style=for-the-badge)](https://sentinel.gujarat.gov.in/)
 [![Release](https://img.shields.io/badge/Release-v1.0_final_submission-C0392B?style=for-the-badge)](../../releases)
-[![Tests](https://img.shields.io/badge/Tests-1582_passed-2E7D32?style=for-the-badge)](reports/FINAL_SUBMISSION_CERTIFICATION.md)
+[![Tests](https://img.shields.io/badge/Tests-1582_passed-2E7D32?style=for-the-badge)](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/reports/FINAL_SUBMISSION_CERTIFICATION.md)
 
 [![Hybrid 1+2+3+4](https://img.shields.io/badge/Architecture-Hybrid_Models_1%2B2%2B3%2B4-0E7C7B?style=flat-square)](docs/HLD.md)
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/API-FastAPI_%2B_OpenAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](docs/API.md)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI_%2B_OpenAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/API.md)
 [![PyTorch](https://img.shields.io/badge/AI-PyTorch_%C2%B7_ONNX-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](docs/HLD.md)
 [![Gemini](https://img.shields.io/badge/Copilot-Gemini_(Vertex_AI)-4285F4?style=flat-square&logo=google&logoColor=white)](docs/HLD.md)
-[![Secret scan](https://img.shields.io/badge/Secret_scan-pass-2E7D32?style=flat-square)](reports/FINAL_SUBMISSION_CERTIFICATION.md)
+[![Secret scan](https://img.shields.io/badge/Secret_scan-pass-2E7D32?style=flat-square)](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/reports/FINAL_SUBMISSION_CERTIFICATION.md)
 [![Licence policy](https://img.shields.io/badge/Models-permissive_only_(AGPL_rejected)-6A1B9A?style=flat-square)](docs/THIRD_PARTY_LICENSES.md)
 
 **[▶ Films](#-the-films)** · **[Number plates](#-number-plate-reads)** · **[Results](#-results-at-a-glance)** · **[Architecture](#-architecture)** · **[Live-grid story](#-what-it-took-to-integrate-the-live-grid)** · **[Submission files](#-submission-files)** · **[Run it](#full-reproduce--clone-to-working-login)**
@@ -90,7 +90,7 @@ is published only when the frames of one track **agree** on it.
 |---|---|
 | Hand-read plates, exact | **17 / 21** Awiros-ANPR-OCR · 5 / 21 Apple Vision · 2 / 21 ONNX |
 | 57 s own-footage clip, final vote | 56 published: **40 correct**, 4 wrong, 12 not settled by a crop |
-| Delivered government report | [**1,101 reads**](submission/04_government_feed_anpr_report.csv), 264 plates, 9 cameras, UTC + IST timestamps, recogniser named per row |
+| Delivered government report | [**1,101 reads**](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/04_government_feed_anpr_report.csv), 264 plates, 9 cameras, UTC + IST timestamps, recogniser named per row |
 
 ---
 
@@ -139,7 +139,7 @@ the tour's footage is recorded, not live.
 |---|---|---|
 | **M1** Registry & GIS | ✅ | Form + bulk onboarding, gap analysis, measured capability grades, estate map (tour film) |
 | **M2** Direct unified viewing | ✅ | 30-tile government wall over WHEP, recorded live 28 Sep (live film) |
-| **M3** VMS federation | ✅ | Adapter contract with DEMO/TEST connectors ([adapters](docs/ADAPTERS.md), [federated report](submission/reports/05_FEDERATED_ANALYTICS_REPORT.md)); vendor-SDK deployment DESIGNED |
+| **M3** VMS federation | ✅ | Adapter contract with DEMO/TEST connectors ([adapters](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/ADAPTERS.md), [federated report](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/reports/05_FEDERATED_ANALYTICS_REPORT.md)); vendor-SDK deployment DESIGNED |
 | **M4** Central analytics | ✅ | 4 deep-inference slots, run live 28 Sep: 4,465 observations, 200 plate reads. Recording all 80,000 cameras centrally is declined (160 Gbps) |
 
 <img src="docs/readme/films/tour-model4-analytics.jpg" alt="Model 4 analytics view" width="100%">
@@ -155,7 +155,7 @@ the tour's footage is recorded, not live.
 
 <img src="docs/readme/arch/security.jpg" alt="Security: threat model, four authorisation gates, data protection" width="100%">
 
-Full design: [HLD](docs/HLD.md) · [statewide architecture](docs/STATEWIDE_ARCHITECTURE.md) · [all diagrams (PDF)](submission/02_HLD_diagrams.pdf) · [security](docs/SECURITY.md) · [scale model](docs/SCALE_MODEL.md).
+Full design: [HLD](docs/HLD.md) · [statewide architecture](docs/STATEWIDE_ARCHITECTURE.md) · [all diagrams (PDF)](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/02_HLD_diagrams.pdf) · [security](docs/SECURITY.md) · [scale model](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/SCALE_MODEL.md).
 
 ---
 
@@ -174,7 +174,7 @@ Sentinel for its concurrency guidance and rebuilt around the answer:
 Eight recording attempts on 28 Sep produced the 5:40 live film. From 12:57
 IST the grid rejected our credentials, so the full-feature tour was made
 from footage we had captured on 15 Sep.
-**[Read the full timeline, with the question we sent and Sentinel's answer →](docs/LIVE_INTEGRATION_STORY.md)**
+**[Read the full timeline, with the question we sent and Sentinel's answer →](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_INTEGRATION_STORY.md)**
 
 ---
 
@@ -182,15 +182,15 @@ from footage we had captured on 15 Sep.
 
 | Portal item | File | Built by |
 |---|---|---|
-| 1 · Presentation | [`01_SAAKSHYA_deck.pdf`](submission/01_SAAKSHYA_deck.pdf) · [`.pptx`](submission/01_SAAKSHYA_deck.pptx) (51 slides) | `tools/demo/render_submission_deck.py` |
-| 2 · High-level design | [HLD](docs/HLD.md) · [diagrams](submission/02_HLD_diagrams.pdf) · [statewide](docs/STATEWIDE_ARCHITECTURE.md) · [security](docs/SECURITY.md) | `tools/demo/render_diagrams.py` |
-| 3 · Own-feed demo | [`03_own_feed_1080p.mp4`](submission/films/03_own_feed_1080p.mp4) | `tools/demo/record_own_feed.py` |
-| 4 · Government demo + plate report | [`04_government_feed_1080p.mp4`](submission/films/04_government_feed_1080p.mp4) · [`04_government_feed_anpr_report.csv`](submission/04_government_feed_anpr_report.csv) | `tools/demo/record_government_feed.py` |
-| 4b · Every feature | [`04b_government_tour_1080p.mp4`](submission/films/04b_government_tour_1080p.mp4) · [replay reads](submission/04b_government_tour_replay_reads.csv) · [beat record](submission/evidence/04b_government_tour_beats.json) | `--tour full --wall-domain replay` |
-| Trace reports | [designated vehicle](submission/06_designated_vehicle_trace_report.html) · [synthetic route](submission/06_own_feed_trace_report.html) | `/reports/trace` |
+| 1 · Presentation | [`01_SAAKSHYA_deck.pdf`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/01_SAAKSHYA_deck.pdf) · [`.pptx`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/01_SAAKSHYA_deck.pptx) (51 slides) | `tools/demo/render_submission_deck.py` |
+| 2 · High-level design | [HLD](docs/HLD.md) · [diagrams](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/02_HLD_diagrams.pdf) · [statewide](docs/STATEWIDE_ARCHITECTURE.md) · [security](docs/SECURITY.md) | `tools/demo/render_diagrams.py` |
+| 3 · Own-feed demo | [`03_own_feed_1080p.mp4`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/films/03_own_feed_1080p.mp4) | `tools/demo/record_own_feed.py` |
+| 4 · Government demo + plate report | [`04_government_feed_1080p.mp4`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/films/04_government_feed_1080p.mp4) · [`04_government_feed_anpr_report.csv`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/04_government_feed_anpr_report.csv) | `tools/demo/record_government_feed.py` |
+| 4b · Every feature | [`04b_government_tour_1080p.mp4`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/films/04b_government_tour_1080p.mp4) · [replay reads](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/04b_government_tour_replay_reads.csv) · [beat record](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/evidence/04b_government_tour_beats.json) | `--tour full --wall-domain replay` |
+| Trace reports | [designated vehicle](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/06_designated_vehicle_trace_report.html) · [synthetic route](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/06_own_feed_trace_report.html) | `/reports/trace` |
 | Models 1 & 3 reports | [`submission/reports/`](submission/reports/) | `reports/`, `docs/ADAPTERS.md` |
-| Integration story | [`docs/LIVE_INTEGRATION_STORY.md`](docs/LIVE_INTEGRATION_STORY.md) | — |
-| Certification | [`reports/FINAL_SUBMISSION_CERTIFICATION.md`](reports/FINAL_SUBMISSION_CERTIFICATION.md) | — |
+| Integration story | [`docs/LIVE_INTEGRATION_STORY.md`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_INTEGRATION_STORY.md) | — |
+| Certification | [`reports/FINAL_SUBMISSION_CERTIFICATION.md`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/reports/FINAL_SUBMISSION_CERTIFICATION.md) | — |
 
 ---
 
@@ -199,12 +199,12 @@ from footage we had captured on 15 Sep.
 | Criterion | Where the evidence is |
 |---|---|
 | **1. Successful test case** | Team-chosen stand-in `GJ11S7924` (not organiser-issued) on cam06: SINGLE-CAMERA evidence in the live film, the trace report and the tour. `GJ18JX7786` (C-014 → C-021): SYNTHETIC RENDERED TEST CORPUS, route logic only |
-| **2. Solution presentation** | [Deck](submission/01_SAAKSHYA_deck.pdf) · [judge Q&A](docs/JUDGE_QA.md) |
+| **2. Solution presentation** | [Deck](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/01_SAAKSHYA_deck.pdf) · [judge Q&A](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/JUDGE_QA.md) |
 | **3. Solution architecture** | [HLD](docs/HLD.md) · [statewide](docs/STATEWIDE_ARCHITECTURE.md) · statewide full-video centralisation declined on arithmetic (80k × 2 Mbps ≈ 160 Gbps; 30 days ≈ 52 PB) |
 | **4. Working platform** | The three films · `make demo && make serve` · bearer-token gate · OpenAPI `/docs` |
 | **5. Video analytics output** | Vehicle and person detection, tracking, voted ANPR, attribute search, zones, capability grades, CSV reports |
-| **6. Scalability & PoC readiness** | [Scale model](docs/SCALE_MODEL.md) · [80k synthetic load test](submission/reports/05_SCALE_80K_LOAD_TEST.md) |
-| **7. Submission completeness** | [`submission/`](submission/) · [release](../../releases) · [certification](reports/FINAL_SUBMISSION_CERTIFICATION.md) |
+| **6. Scalability & PoC readiness** | [Scale model](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/SCALE_MODEL.md) · [80k synthetic load test](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/reports/05_SCALE_80K_LOAD_TEST.md) |
+| **7. Submission completeness** | [`submission/`](submission/) · [release](../../releases) · [certification](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/reports/FINAL_SUBMISSION_CERTIFICATION.md) |
 
 ---
 
@@ -412,7 +412,7 @@ print(ts.mint("supervisor.live", label="live", ttl=timedelta(hours=8)))
 PY
 ```
 
-Details: [`docs/SENTINEL_SANDBOX.md`](docs/SENTINEL_SANDBOX.md) · [`docs/GOVERNMENT_DATA_ACCESS_CHECKLIST.md`](docs/GOVERNMENT_DATA_ACCESS_CHECKLIST.md).
+Details: [`docs/SENTINEL_SANDBOX.md`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/SENTINEL_SANDBOX.md) · [`docs/GOVERNMENT_DATA_ACCESS_CHECKLIST.md`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/GOVERNMENT_DATA_ACCESS_CHECKLIST.md).
 
 Every client forces **RTSP over TCP**. Timing uses **presentation timestamps**, never declared FPS.
 
@@ -494,7 +494,7 @@ with httpx.Client(base_url=BASE, headers=headers, timeout=30.0) as client:
 | Seal evidence | `POST /evidence/from-observation/{id}` → `/export` |
 | Health | `/healthz` · `/readyz` · `/system/health` · `/metrics` |
 
-Full surface: [`docs/API.md`](docs/API.md).
+Full surface: [`docs/API.md`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/API.md).
 
 ---
 
@@ -547,19 +547,19 @@ tests/              unit · integration · e2e · security
 
 | Doc | Purpose |
 |---|---|
-| [ARCHITECTURE.md](docs/ARCHITECTURE.md) | How it is built |
+| [ARCHITECTURE.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/ARCHITECTURE.md) | How it is built |
 | [HLD.md](docs/HLD.md) | Technical proposal |
-| [API.md](docs/API.md) | Endpoints |
-| [DATA_MODEL.md](docs/DATA_MODEL.md) | Schema |
+| [API.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/API.md) | Endpoints |
+| [DATA_MODEL.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/DATA_MODEL.md) | Schema |
 | [SECURITY.md](docs/SECURITY.md) | Four gates |
 | [PRIVACY.md](docs/PRIVACY.md) | Purpose limitation |
-| [PERFORMANCE.md](docs/PERFORMANCE.md) | Latency / load |
-| [SCALE_MODEL.md](docs/SCALE_MODEL.md) | Where it breaks first |
-| [MEASURED_RESULTS.md](docs/MEASURED_RESULTS.md) | Quote sheet |
-| [SENTINEL_SANDBOX.md](docs/SENTINEL_SANDBOX.md) | Live grid |
+| [PERFORMANCE.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/PERFORMANCE.md) | Latency / load |
+| [SCALE_MODEL.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/SCALE_MODEL.md) | Where it breaks first |
+| [MEASURED_RESULTS.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/MEASURED_RESULTS.md) | Quote sheet |
+| [SENTINEL_SANDBOX.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/SENTINEL_SANDBOX.md) | Live grid |
 | [DEMO_SIMULATION.md](docs/DEMO_SIMULATION.md) | Isolated 30-channel archival replay demo |
-| [JUDGE_QA.md](docs/JUDGE_QA.md) | Hard questions |
-| [FINAL_RED_TEAM.md](docs/FINAL_RED_TEAM.md) | Attacks we ran on ourselves |
+| [JUDGE_QA.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/JUDGE_QA.md) | Hard questions |
+| [FINAL_RED_TEAM.md](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/FINAL_RED_TEAM.md) | Attacks we ran on ourselves |
 | [FINAL_SUBMISSION.md](docs/FINAL_SUBMISSION.md) | Authoritative upload index |
 
 ---
