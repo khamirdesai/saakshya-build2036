@@ -28,6 +28,8 @@ The additional 38-second Sentinel highlights reel uses four excerpted sections o
 
 The 60-second narrated film combines original Mumbai traffic analysis replay and a focused shot from the historical Sentinel session with new motion graphics and generated Gradium narration. Source footage is labelled by origin and date. The output counts relate to the 28 September session, using four selected inference slots. Original footage audio is muted in this edit. The 5:40 Sentinel film remains available unchanged.
 
+The Indian English revision retains the measured-results graphics and source-labelled Mumbai and Sentinel footage. It adds Gradium Indian English narration and shows actual investigation and evidence-chain views from the original recorded application tour. The original tour remains separately available.
+
 ## Original films, reproduced without edits
 
 | Public file | Original upstream path | Scope |
