@@ -12,6 +12,15 @@ The films show the original interface, live wall and camera focus, detection/OCR
 
 The public interactive instance preserves the original Python API and UI on a processed synthetic corpus for judge testing. Use **demo access**, then **Enter the workspace**. Sentinel live operation is documented in the film and the [original integration record](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_INTEGRATION_STORY.md).
 
+## Judge walkthrough
+
+1. [Watch the Sentinel live-stream film](https://khamirdesai.github.io/saakshya-build2036/videos/#government). It shows the original camera wall, focused video, analytics, plate gallery and evidence workflow. The recording is dated 28 September 2026.
+2. [Open the working application](https://reverb-colossal-reaction.ngrok-free.dev/). If ngrok asks, select **Visit Site**. Choose a demonstration officer role, select **Use demo access**, then **Enter the workspace**.
+3. Open **Investigate**, search the synthetic plate **GJ18JX7786** and review its seven observations across two cameras. The interface displays camera timebase restrictions alongside the results.
+4. Explore the camera registry, capability grades and evidence chain. For the full feature tour and original traffic-footage analysis, use the other tabs on the video page.
+
+The interactive sandbox uses synthetic data, while the Sentinel film records the earlier network-stream session. The app runs on the participant PC and may be temporarily unavailable if it is offline. The [15-slide submission deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) contains the architecture, measured results and proposed Indore pilot.
+
 [Source and contribution history](PROVENANCE.md) · [Original app deployment](deployment/README.md)
 
 ---
