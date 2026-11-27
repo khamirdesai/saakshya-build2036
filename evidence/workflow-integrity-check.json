@@ -1,0 +1,74 @@
+{
+  "run_utc": "2026-11-27T20:26:08.287213+00:00",
+  "scope": "Original app API on an isolated copy of the synthetic demonstration snapshot; no camera feeds, model inference, or field deployment.",
+  "snapshot_sha256": "b9de7dd23ec7b208877795f37aa492d23c18fec3f06929127c8df5ca63882584",
+  "baseline": {
+    "known_plate": "GJ18JX7786",
+    "exact_matches": 7,
+    "cameras": [
+      "C-014",
+      "C-021"
+    ],
+    "all_leads_require_verification": true,
+    "absent_plate_matches": 0,
+    "evidence_records_verified": 6,
+    "metadata_only_records": 6
+  },
+  "access_control_http_status": {
+    "anonymous_search_status": 401,
+    "missing_case_purpose_status": 400,
+    "administrator_search_status": 403,
+    "unfiltered_search_status": 400
+  },
+  "tamper_experiment": {
+    "alteration": "Change the camera_id field of one record, preserving its original hash; verify with fresh=1; restore and reverify.",
+    "records_tested": 6,
+    "alterations_detected": 6,
+    "restorations_verified": 6,
+    "trials": [
+      {
+        "trial": 1,
+        "altered_field": "camera_id",
+        "detected": true,
+        "restored_chain_verified": true
+      },
+      {
+        "trial": 2,
+        "altered_field": "camera_id",
+        "detected": true,
+        "restored_chain_verified": true
+      },
+      {
+        "trial": 3,
+        "altered_field": "camera_id",
+        "detected": true,
+        "restored_chain_verified": true
+      },
+      {
+        "trial": 4,
+        "altered_field": "camera_id",
+        "detected": true,
+        "restored_chain_verified": true
+      },
+      {
+        "trial": 5,
+        "altered_field": "camera_id",
+        "detected": true,
+        "restored_chain_verified": true
+      },
+      {
+        "trial": 6,
+        "altered_field": "camera_id",
+        "detected": true,
+        "restored_chain_verified": true
+      }
+    ]
+  },
+  "audit_chain_verified_after_checks": true,
+  "limitations": [
+    "Single synthetic snapshot and one known search case.",
+    "Six trials exercise one metadata alteration each; not an exhaustive tampering or security assessment.",
+    "Metadata-only evidence does not prove an image was retained or verified.",
+    "Does not measure OCR quality, live-camera coverage, operator time saved, or field outcomes."
+  ]
+}

@@ -6,6 +6,7 @@
 - **4,465 observations and 200 plate reads** in the 28 September Sentinel network-stream session, using four selected deep-inference slots. The sandbox footage was prerecorded.
 - **1.155 million detector observations** in the 24 September government snapshot. The delivered government report contains **1,101 plate-read rows across nine cameras**.
 - **17 of 21 hand-read plates matched exactly** in a small recogniser check; this is not a production-accuracy estimate. See the [recogniser test](#-number-plate-reads) below.
+- **6 of 6 metadata alterations detected** in a reproducible synthetic-snapshot check, after the clean chain verified. This covers one modified field across six metadata-only records, not image integrity or a security assessment. [Read the method and repeat the check](evidence/WORKFLOW_CHECK.md).
 
 [Watch the one-minute SAAKSHYA film](https://khamirdesai.github.io/saakshya-build2036/videos/#film) · [Read the Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) · [Open the original app](https://reverb-colossal-reaction.ngrok-free.dev/)
 

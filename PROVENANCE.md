@@ -51,3 +51,8 @@ For the original historical evidence and detailed limitations, see the upstream 
 ## Distribution boundaries
 
 No original government runtime database, credentials, private government endpoints, model weights or raw government footage dataset is included. The distributed database and six newly generated camera files belong only to the synthetic corpus. Previously public demonstration films are reproduced as submission evidence. The video page has no external analytics. The original application writes queries and case actions into its synthetic sandbox and audit log; this demonstration state can reset when the service restarts. Do not enter personal or real case data. Source licensing is not changed. The video page reuses the original system-font console styling. Third-party model/tool licenses remain separate.
+
+
+## Evidence-focused film and verification
+
+The one-minute Indian English film enlarges the original investigation and evidence screens and identifies Sentinel sandbox scenes as prerecorded. It uses historical application recordings and the same narration. The independently repeatable synthetic-snapshot workflow check is documented in [evidence/WORKFLOW_CHECK.md](evidence/WORKFLOW_CHECK.md); its records attest metadata only.
