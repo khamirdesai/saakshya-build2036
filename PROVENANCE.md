@@ -6,6 +6,12 @@ The original project is [DAU-Daiict-submission-Sentinel-gujarat-Hackathone](http
 
 Khamir Desai leads this submission. The project includes shared work, and the submitter has confirmed teammate participation and agreement to reuse it. This repository does not claim sole authorship of shared components or assign an unprovided teammate name. Original Git history remains available upstream.
 
+## Live Sentinel operation
+
+The original application was integrated with Sentinel network video streams. The retained [live-feed findings](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_FEED_FINDINGS.md) report 30/30 RTSP streams active at the end of a staged four-minute run on 2 September 2026. The run delivered 16,913 frames and analysed 1,725 sampled frames. This is simultaneous stream ingest, distinct from full-rate deep-inference coverage.
+
+The 28 September live session produced 4,465 observations and 200 plate reads using four selected deep-inference slots. Its unchanged 5:40 film is the first recording on the public video page. Sentinel serves recorded scenes as simulated-live network streams. The full tour separately uses government footage captured earlier and labelled RECORDED. The government-video poster is an unchanged frame extracted at 45 seconds from the original film.
+
 ## Build 2036 packaging
 
 The original `src/`, `ui/`, tools, configuration and README are preserved. This entry adds a labelled deployment wrapper around the original FastAPI application, public demo access through its existing token service, a video page using the original console stylesheet, deployment checks, the adapted 15-slide deck and Frontier 06 pilot proposal. It does not replace the product interface or intercept browser API requests with invented responses.

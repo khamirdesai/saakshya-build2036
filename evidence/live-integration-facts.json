@@ -1,0 +1,34 @@
+{
+  "review_date": "2026-11-27",
+  "original_upstream_commit": "9b65247f0f23093ee7147f9c4f80a053a280a07f",
+  "stream_test": {
+    "date": "2026-09-02",
+    "concurrent_rtsp_streams_at_end": 30,
+    "window_minutes": 4,
+    "delivered_frames": 16913,
+    "sampled_analysed_frames": 1725,
+    "source": "https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_FEED_FINDINGS.md"
+  },
+  "live_session": {
+    "date": "2026-09-28",
+    "deep_inference_slots": 4,
+    "observations": 4465,
+    "plate_read_rows": 200,
+    "plate_camera": "cam06",
+    "recorded_video_seconds": 339.97,
+    "film_window_ist": "12:41–12:47",
+    "source": "https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/reports/FINAL_SUBMISSION_CERTIFICATION.md"
+  },
+  "government_snapshot": {
+    "date": "2026-09-24",
+    "observations": 1155325,
+    "source": "https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/reports/FINAL_SUBMISSION_CERTIFICATION.md"
+  },
+  "delivered_government_csv": {
+    "reads": 1101,
+    "distinct_marks": 264,
+    "cameras": 9,
+    "source": "https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/submission/04_government_feed_anpr_report.csv"
+  },
+  "scope": "Dated network live-stream tests against Sentinel sandbox, which serves recorded scenes as simulated-live streams. Stream ingest, browser viewing and selected deep inference are different measures. Detector/read totals are outputs, not unique individuals or model accuracy."
+}

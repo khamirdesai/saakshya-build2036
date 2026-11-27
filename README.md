@@ -1,14 +1,18 @@
 # Build 2036 submission
 
-This repository preserves the original SAAKSHYA application, interface and project documentation below. The Build 2036 entry targets **Frontier 06: The Rise of New India**.
+**SAAKSHYA is a working CCTV intelligence and incident-investigation platform tested on the Sentinel Camera Grid.** This entry brings that engineering to **Frontier 06: The Rise of New India**, with a proposed Indore pilot.
 
-- [Deployed original application](https://reverb-colossal-reaction.ngrok-free.dev/) — hosted on the participant PC
-- [Prototype videos](https://khamirdesai.github.io/saakshya-build2036/videos/) — three original recordings with source and date labels
-- [Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Visual.pdf) — use this adapted 15-slide deck for this event
-- [Source and contribution history](PROVENANCE.md)
-- [Original app deployment](deployment/README.md)
+- **30 simultaneous RTSP streams** ingested through the pipeline in a staged four-minute test on 2 September 2026.
+- **4,465 observations and 200 plate reads** in the 28 September live session, using four selected deep-inference slots.
+- **1.155 million detector observations** in the 24 September government snapshot. The delivered government report contains **1,101 plate-read rows across nine cameras**.
 
-The hosted demonstration uses the original FastAPI routes and operator UI on a fresh synthetic corpus processed by the original pipeline. It preserves real sign-in, role and purpose checks, search, camera capability, evidence and audit workflows. It connects to no government camera feed. The historical recordings below are separately scoped and dated. The proposed Indore pilot has not occurred.
+[Watch the 5:40 Sentinel live-stream demonstration](https://khamirdesai.github.io/saakshya-build2036/videos/#government) · [Read the Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Sentinel.pdf) · [Open the original app](https://reverb-colossal-reaction.ngrok-free.dev/)
+
+The films show the original interface, live wall and camera focus, detection/OCR, alerts, search, GIS, case files, evidence, audit and copilot. Results refer to their dated test windows. Detector/read totals are output counts, and viewing concurrency is distinct from selected deep inference.
+
+The public interactive instance preserves the original Python API and UI on a processed synthetic corpus for judge testing. Use **demo access**, then **Enter the workspace**. Sentinel live operation is documented in the film and the [original integration record](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_INTEGRATION_STORY.md).
+
+[Source and contribution history](PROVENANCE.md) · [Original app deployment](deployment/README.md)
 
 ---
 
