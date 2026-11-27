@@ -4,7 +4,7 @@ This repository preserves the original SAAKSHYA application, interface and proje
 
 - [Deployed original application](https://reverb-colossal-reaction.ngrok-free.dev/) — hosted on the participant PC
 - [Prototype videos](https://khamirdesai.github.io/saakshya-build2036/videos/) — three original recordings with source and date labels
-- [Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-v3.pdf) — use this adapted 15-slide deck for this event
+- [Build 2036 deck](https://khamirdesai.github.io/saakshya-build2036/downloads/SAAKSHYA-Build2036-Visual.pdf) — use this adapted 15-slide deck for this event
 - [Source and contribution history](PROVENANCE.md)
 - [Original app deployment](deployment/README.md)
 

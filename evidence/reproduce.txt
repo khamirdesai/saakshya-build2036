@@ -44,3 +44,7 @@ Public original app: https://reverb-colossal-reaction.ngrok-free.dev/
 Original videos: https://khamirdesai.github.io/saakshya-build2036/videos/
 The source Python and operator UI are preserved. New deployment packaging runs the original UI and API on a corpus generated and processed by the original tools. Its 261 observations include 206 plate-bearing observations; these counts are not recognition accuracy. Six additional deployment tests passed, and the public API's search, authentication and evidence-chain behavior were verified. No continuous model worker or government feed runs in the public sandbox. The participant PC must stay online.
 No hackathon portal submission has been made.
+
+27 NOVEMBER ADDITIONAL CAPABILITY CHECKS
+AI_PROVIDER=disabled SAAKSHYA_MODELS_OFFLINE=1 SAAKSHYA_GOOGLE_MAPS_DISABLE=1 PYTHONPATH=src:. .venv/bin/python -m pytest tests/unit/test_zone_rules.py tests/unit/test_adapters.py tests/unit/test_copilot.py tests/unit/test_vehicle_trace_report.py tests/e2e/test_offline_mode.py -q
+Observed: 80 passed, no skips or failures. Scope: five selected modules on controlled fixtures. DEMO/TEST adapters are not operational vendor integrations.

@@ -26,7 +26,8 @@
     "scope": "synthetic camera metadata only; no streams or model inference"
   },
   "primary_video": {
-    "public_url": "https://raw.githubusercontent.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/main/submission/films/03_own_feed_1080p.mp4",
+    "public_url": "https://khamirdesai.github.io/saakshya-build2036/media/primary-demo.mp4",
+    "video_page": "https://khamirdesai.github.io/saakshya-build2036/videos/",
     "duration_seconds": 163.05,
     "width": 1920,
     "height": 1080,
@@ -35,7 +36,46 @@
   },
   "historical_results_reproduced_on_live_grid": false,
   "new_model_accuracy_evaluation_performed": false,
-  "repository_code_modified": false,
+  "original_python_code_modified": false,
+  "original_ui_and_api_deployed": true,
+  "public_repository": "https://github.com/khamirdesai/saakshya-build2036",
+  "public_demo": "https://reverb-colossal-reaction.ngrok-free.dev/",
+  "hosting": "Participant PC with authenticated original app and HTTPS tunnel",
+  "continuous_model_worker": false,
   "portal_submitted": false,
-  "team_reuse_authorization": "User confirmed teammate involvement and agreement in chat."
+  "team_reuse_authorization": "User confirmed teammate involvement and agreement in chat.",
+  "publication_date": "2026-11-27",
+  "public_application": "https://reverb-colossal-reaction.ngrok-free.dev/",
+  "video_page": "https://khamirdesai.github.io/saakshya-build2036/videos/",
+  "deployment_tests": {
+    "passed": 6,
+    "failed": 0,
+    "scope": "Original API authentication, purpose, roles, chains, original UI and sandbox boundaries"
+  },
+  "original_ui_preserved": true,
+  "new_demo_corpus": {
+    "created": "2026-11-27",
+    "upstream_commit": "9b65247f0f23093ee7147f9c4f80a053a280a07f",
+    "method": "Original tools/sandbox/make_media.py then original tools/demo/seed.py --fps 1",
+    "corpus": "SYNTHETIC_CONTROL",
+    "cameras": 8,
+    "synthetic_video_cameras": 6,
+    "observations": 261,
+    "observations_with_plate": 206,
+    "evidence_records": 6,
+    "plate_read_count_is_not_accuracy": true,
+    "government_feed_used": false,
+    "snapshot_sha256": "54de95e7b921d0a5048ea5658e6f97efc23822ec6043f4dab2e20f9464121b24",
+    "preview_frames": 6,
+    "previews_are_sealed_evidence": false
+  },
+  "additional_capability_checks": {
+    "run_date": "2026-11-27",
+    "passed": 80,
+    "skipped": 0,
+    "failed_or_error": 0,
+    "scope": "Five selected modules: zone rules, DEMO/TEST adapters, read-only copilot, trace reports, controlled offline operation; not field recognition accuracy",
+    "report": "additional-capabilities-tests.xml"
+  },
+  "presentation_revision": "Visual revision: native diagrams, capability heatmap, editable charts, original app screenshots; 15-slide event template retained"
 }
