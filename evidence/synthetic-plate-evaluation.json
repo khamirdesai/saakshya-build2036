@@ -1,6 +1,9 @@
 {
   "dataset": "Generated synthetic scenes; pre-existing, not held out",
   "sample_rate": "1 frame per second, from snapshot provenance",
+  "plate_observation_ocr_counts": {
+    "apple-vision": 206
+  },
   "snapshot_sha256": "b9de7dd23ec7b208877795f37aa492d23c18fec3f06929127c8df5ca63882584",
   "truth_sha256": "a8bb9da56a86e751ad543d48ec2b8b9f11761d0b7da3836e268950d6c29131aa",
   "unit": "Distinct camera/plate pair; matched if at least one stored prediction has the same camera and plate within the labeled time window",

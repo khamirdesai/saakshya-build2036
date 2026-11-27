@@ -1,6 +1,6 @@
 # Synthetic snapshot plate evaluation
 
-This is a reproducible check of the **existing public demo snapshot**, not a new recording or a field trial. The original seeder processed generated scenes at one frame per second. The generated ground-truth file was already used in development; it is not a held-out test set.
+This is a reproducible check of the **existing public demo snapshot**, not a new recording or a field trial. The original seeder processed generated scenes at one frame per second. The generated ground-truth file was already used in development; it is not a held-out test set. All 206 plate-bearing snapshot rows record **Apple Vision OCR** in their model metadata. These results do not measure the Awiros model used in the separate historical comparison below.
 
 A unit is one distinct `(camera, plate)` pair. A predicted pair matches if at least one stored prediction has that camera and exact plate **within** its generated truth time window. Multiple predictions for the same pair collapse into one. The script compares the 206 plate-bearing observation rows in the snapshot to the 231 distinct ground-truth pairs:
 

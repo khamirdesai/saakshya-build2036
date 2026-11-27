@@ -9,7 +9,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sqlite3
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -32,6 +32,11 @@ def main() -> None:
         rows = db.execute(
             'SELECT camera_id, plate, pts_s FROM observations WHERE plate IS NOT NULL'
         ).fetchall()
+        versions = db.execute(
+            'SELECT model_versions FROM observations WHERE plate IS NOT NULL'
+        ).fetchall()
+        ocr_counts = Counter(json.loads(version or '{}').get('ocr', 'unknown')
+                             for (version,) in versions)
     finally:
         db.close()
     predicted = {(cam, plate) for cam, plate, _ in rows}
@@ -54,6 +59,7 @@ def main() -> None:
     report = {
         'dataset': 'Generated synthetic scenes; pre-existing, not held out',
         'sample_rate': '1 frame per second, from snapshot provenance',
+        'plate_observation_ocr_counts': dict(sorted(ocr_counts.items())),
         'snapshot_sha256': hashlib.sha256(SNAPSHOT.read_bytes()).hexdigest(),
         'truth_sha256': hashlib.sha256(TRUTH.read_bytes()).hexdigest(),
         'unit': ('Distinct camera/plate pair; matched if at least one stored prediction '

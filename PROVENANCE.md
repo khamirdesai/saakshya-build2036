@@ -55,4 +55,4 @@ No original government runtime database, credentials, private government endpoin
 
 ## Evidence-focused film and verification
 
-The one-minute Indian English film enlarges the original investigation and evidence screens and identifies Sentinel sandbox scenes as prerecorded. It uses historical application recordings and the same narration. The independently repeatable synthetic-snapshot workflow check is documented in [evidence/WORKFLOW_CHECK.md](evidence/WORKFLOW_CHECK.md); its records attest metadata only.
+The one-minute Indian English film uses original investigation and evidence screens, includes an animated workflow diagram, and identifies Sentinel sandbox scenes as prerecorded. It uses historical application recordings and the same narration. The independently repeatable synthetic-snapshot workflow check is documented in [evidence/WORKFLOW_CHECK.md](evidence/WORKFLOW_CHECK.md); its records attest metadata only.
