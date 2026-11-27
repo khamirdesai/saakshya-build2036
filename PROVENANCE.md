@@ -24,6 +24,8 @@ Six deployment checks exercise actual API authentication, purpose refusal, admin
 
 The 27 November visual deck revision retains the event’s 15-slide template and adds editable workflow, architecture and copilot diagrams, a task-capability heatmap, native charts and enlarged original interface captures. Five additional selected source test modules produced **80 passes, zero skips and zero failures** across zone rules, DEMO/TEST adapters, read-only copilot tools, trace reports and controlled offline operation. See `evidence/additional-capabilities-tests.xml`. These are software checks on controlled inputs, separate from historical recognition audits.
 
+The additional 38-second Sentinel highlights reel uses four excerpted sections of the original narrated government film (0–9, 80–89, 186–195 and 268–275 seconds), followed by a new dated end card. The full 5:40 film remains available unchanged and is the default recording.
+
 ## Original films, reproduced without edits
 
 | Public file | Original upstream path | Scope |
