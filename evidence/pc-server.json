@@ -1,0 +1,23 @@
+{
+  "server": "http://127.0.0.1:8086",
+  "service_labels": [
+    "com.khamirdesai.saakshya-build2036.server",
+    "com.khamirdesai.saakshya-build2036.tunnel",
+    "com.khamirdesai.saakshya-build2036.awake"
+  ],
+  "port": 8086,
+  "cloud_resources_created": false,
+  "public_url": "https://reverb-colossal-reaction.ngrok-free.dev",
+  "verified_date": "2026-11-27",
+  "run_at_user_login": true,
+  "idle_sleep_prevention_enabled": true,
+  "backend_bind": "127.0.0.1:8086",
+  "public_api_checks": {
+    "/me": 200,
+    "/search?plate=GJ18JX7786": 200,
+    "/evidence/chain/verify?fresh=1": 200,
+    "/cameras/C-014/snapshot": 200
+  },
+  "continuous_model_worker": false,
+  "portal_submitted": false
+}

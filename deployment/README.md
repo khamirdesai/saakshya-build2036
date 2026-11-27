@@ -41,4 +41,19 @@ The original seeder prints newly minted tokens to its terminal. Do not commit th
 
 Authentication remains enabled. Temporary public demo identities use the original token service and server-side roles. The public instance cannot change camera integrations, connect arbitrary streams or invoke external scene analysis. Local corpus viewing remains available. Queries and case actions are written into the demonstration audit log, and instance state can reset at restart. Use fictional case details only.
 
-The proposed cloud configuration is one instance at most, request-based billing and scaling to zero while idle. A final public application URL will be added after deployment and end-to-end verification. The separately hosted [video page](https://khamirdesai.github.io/saakshya-build2036/videos/) contains the unchanged original films.
+The live application is hosted on the participant PC at https://reverb-colossal-reaction.ngrok-free.dev/. It uses an authenticated original application behind an HTTPS tunnel. Ngrok may show a one-time Visit Site screen. Keep the PC plugged in, logged in and online. No cloud compute was created. The separately hosted [video page](https://khamirdesai.github.io/saakshya-build2036/videos/) contains the unchanged original films.
+
+
+## PC server controls
+
+The installed copy lives in `~/Library/Application Support/SAAKSHYA Build2036/`, with a separate virtual environment. macOS background services start the app, tunnel and idle-sleep prevention at user login; closing a terminal or Codex does not stop them. They do not keep a powered-off or disconnected PC reachable.
+
+From the checkout:
+
+```sh
+.venv/bin/python deployment/pc_server.py status
+.venv/bin/python deployment/pc_server.py stop
+.venv/bin/python deployment/pc_server.py start
+```
+
+Use `install` after changing the application to refresh the installed copy and restart the three services. The original data resets from the reviewed snapshot on restart. The tunnel requests the public domain recorded in `deployment/public-url.json`. Logs are in `~/Library/Logs/SAAKSHYA-Build2036/`. Ngrok authentication remains in its private user configuration and is not copied into this repository.
