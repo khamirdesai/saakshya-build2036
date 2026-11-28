@@ -4,13 +4,13 @@
 
 The original project is [DAU-Daiict-submission-Sentinel-gujarat-Hackathone](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone), previously prepared for the Gujarat Police Innovation Challenge. This repository contains a clean snapshot of its tracked `src/`, `tests/` and `ui/` files and selected build/verification tooling from commit [`9b65247f0f23093ee7147f9c4f80a053a280a07f`](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/commit/9b65247f0f23093ee7147f9c4f80a053a280a07f). Existing contributor credit stays with that project. Its visible commit identity at the snapshot is Eartherai; the account is now khamirdesai.
 
-Khamir Desai leads this submission. The project includes shared work, and the submitter has confirmed teammate participation and agreement to reuse it. This repository does not claim sole authorship of shared components or assign an unprovided teammate name. Original Git history remains available upstream.
+Khamir Desai leads this submission; Daksh Rathod is listed as a team member. The original project includes shared work; contribution history remains available upstream.
 
 ## Live Sentinel operation
 
 The original application was integrated with Sentinel network video streams. The retained [live-feed findings](https://github.com/khamirdesai/DAU-Daiict-submission-Sentinel-gujarat-Hackathone/blob/9b65247f0f23093ee7147f9c4f80a053a280a07f/docs/LIVE_FEED_FINDINGS.md) report 30/30 RTSP streams active at the end of a staged four-minute run on 2 September 2026. The run delivered 16,913 frames and analysed 1,725 sampled frames. This is simultaneous stream ingest, distinct from full-rate deep-inference coverage.
 
-The 28 September live session produced 4,465 observations and 200 plate reads using four selected deep-inference slots. Its unchanged 5:40 film is available on the public video page under the Sentinel stream tab. Sentinel serves recorded scenes as simulated-live network streams. The full tour separately uses government footage captured earlier and labelled RECORDED. The government-video poster is an unchanged frame extracted at 45 seconds from the original film.
+The 28 September live session produced 4,465 observations and 200 plate reads using four selected deep-inference slots. Its unchanged 5:40 film is available on the public video page under the Sentinel stream tab. Sentinel serves recorded scenes as simulated-live network streams. The full tour separately uses government footage captured earlier and labelled RECORDED. The Sentinel video poster is an unchanged focused-camera frame extracted at 1:45 from the original film. Deck slides 2 and 13 show cropped focused-camera frames from the same session; the separate 30-stream metric refers to the earlier staged ingest test. Some camera tiles in the original recording show connecting or unavailable states.
 
 ## Build 2036 packaging
 
@@ -24,7 +24,7 @@ Six deployment checks exercise actual API authentication, purpose refusal, admin
 
 The 27 November visual deck revision retains the event’s 15-slide template and adds editable workflow, architecture and copilot diagrams, a task-capability heatmap, native charts and enlarged original interface captures. Five additional selected source test modules produced **80 passes, zero skips and zero failures** across zone rules, DEMO/TEST adapters, read-only copilot tools, trace reports and controlled offline operation. See `evidence/additional-capabilities-tests.xml`. These are software checks on controlled inputs, separate from historical recognition audits.
 
-The additional 38-second Sentinel highlights reel uses four excerpted sections of the original narrated government film (0–9, 80–89, 186–195 and 268–275 seconds), followed by a new dated end card. The full 5:40 film remains available unchanged and is the default recording.
+The additional 38-second Sentinel highlights reel uses four excerpted sections of the original narrated government film (0–9, 80–89, 186–195 and 268–275 seconds), followed by a new dated end card. The full 5:40 film remains available unchanged and is the default recording. It is not featured on the judge page because some edited captions did not match the displayed screens.
 
 The 60-second narrated film combines original Mumbai traffic analysis replay and a focused shot from the historical Sentinel session with new motion graphics and generated Gradium narration. Source footage is labelled by origin and date. The output counts relate to the 28 September session, using four selected inference slots. Original footage audio is muted in this edit. The 5:40 Sentinel film remains available unchanged.
 

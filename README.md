@@ -1,5 +1,7 @@
 # Build 2036 submission
 
+**Team:** Khamir Desai (team leader) and Daksh Rathod (team member).
+
 **SAAKSHYA is a working CCTV intelligence and incident-investigation platform tested on the Sentinel Camera Grid.** This entry brings that engineering to **Frontier 06: The Rise of New India**, with a proposed Indore pilot.
 
 - **30 simultaneous RTSP streams** ingested through the pipeline in a staged four-minute Sentinel sandbox test on 2 September 2026; the sandbox streamed prerecorded scenes.
